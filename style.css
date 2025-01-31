@@ -1,12 +1,18 @@
 
 body {font-family:"Poppins", serif ;
     font-weight: 500;
-
+background-color: rgb(56, 55, 55);
+flex:auto;
 }
 
-h1 {
-    text-align: center;
-    padding-top: 20px;
+h1{
+    text-align:start;
+    padding-top: 1.7rem;
+}
+
+h2 {
+    padding-right: 8rem;
+    margin-top: 3rem;
 }
 
 a { 
@@ -15,26 +21,39 @@ a {
 }
 footer {
     text-align: center;
+    color: aliceblue;
+}
+.container{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4rem;
 }
 
 .intro {
+    
     border: 1px solid black;
-    margin: 15px;
+    border-radius: 5px;
+   margin-top: 4rem;
+    background-color: aliceblue;
+    justify-content: center;
 }
 
-#goal, .intro-p {
+.goal, .description {
     font-family: "Playfair", serif;
-    text-align: center;
+    font-size: 1.4rem;
 }
-.intro-p {
-    font-size: 26px;
+
+.goal{
+    text-align: justify;
 }
-.discription-p {
-    font-size: 30px;
+
+.discription {
+    justify-content: center;
 }
 .btn {
     background-color: #D11E2b;
-    margin-bottom: 8px;
+    margin-bottom: 8rem;
+    margin-top: 2rem;
 }
 .links {
     background-color: black;
@@ -50,18 +69,19 @@ footer {
     font-size: 26px;
 }
 
-.phoenix {
-    margin-top: 20px;
-
+@media(min-width:414px) {
+    .container {
+    flex: auto;
+    padding: 2rem;
+    }
+    h1 {
+        font-size: x-large;
+        padding-top: 3px;
+        text-align: center;
+    }
 }
 
-.goal-p {
-    margin-top: 40px;
-    padding-right: 70px;
-}
-#goal {
-    font-size: 24px;
 
-}
+
 
 
