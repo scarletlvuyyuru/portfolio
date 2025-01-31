@@ -1,25 +1,40 @@
 
 body {font-family:"Poppins", serif ;
     font-weight: 500;
-  margin: 0 auto;
+
 }
 
 h1 {
     text-align: center;
-    padding-top: 8px;
+    padding-top: 20px;
 }
 
 a { 
     text-decoration: none;
     color: #D11E2b;
 }
+footer {
+    text-align: center;
+}
 
-p {
+.intro {
+    border: 1px solid black;
+    margin: 15px;
+}
+
+#goal, .intro-p {
     font-family: "Playfair", serif;
     text-align: center;
 }
-footer {
-    text-align: center;
+.intro-p {
+    font-size: 26px;
+}
+.discription-p {
+    font-size: 30px;
+}
+.btn {
+    background-color: #D11E2b;
+    margin-bottom: 8px;
 }
 .links {
     background-color: black;
@@ -39,4 +54,14 @@ footer {
     margin-top: 20px;
 
 }
+
+.goal-p {
+    margin-top: 40px;
+    padding-right: 70px;
+}
+#goal {
+    font-size: 24px;
+
+}
+
 
