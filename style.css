@@ -5,7 +5,14 @@ body {font-family:"Poppins", serif !important;
 
 h1 {
     text-align: center;
+    padding-top: 5%;
 }
+
+a { 
+    text-decoration: none;
+    color: #D11E2b;
+}
+
 
 .links {
     background-color: black;
@@ -13,6 +20,14 @@ h1 {
 }
 
 .logo {
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
+.logo-type {
+    margin-left: 15%;
+    font-size: 150%;
+}
+
+.phoenix {
+    margin-top: 10%;
+}
