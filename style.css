@@ -36,6 +36,7 @@ footer {
     background-color: aliceblue;
 }
 
+
 .goal, .description {
     font-family: "Playfair", serif;
     font-size: 1.4rem;
@@ -47,8 +48,7 @@ footer {
 
 .btn {
     background-color: #D11E2b;
-    margin-bottom: 6rem;
-    margin-top: 2rem;
+
 }
 .learn {
     color:white;
@@ -65,6 +65,11 @@ footer {
 .logo-type {
     margin-left: 10px;
     font-size: 26px;
+}
+
+.preview {
+    background-color: #D11E2b;
+    color: white;
 }
 
 @media(max-width:450px) {
