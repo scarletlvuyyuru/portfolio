@@ -79,6 +79,9 @@ footer {
     justify-content:left;
 }
 
+.link {
+    color: black;
+}
 
 @media(max-width:450px) {
     .container {
@@ -86,11 +89,16 @@ footer {
     padding: 2rem;
     }
     h1 {
-        font-size:x-large;
+        font-size: 30px;
         padding-top: 3px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    footer {
+        padding: 1rem;
     }
 }
-
 
 
 
