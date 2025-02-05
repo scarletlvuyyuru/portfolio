@@ -11,7 +11,7 @@ h1{
 }
 
 h2 {
-    padding-right: 8rem;
+    padding-right: 7rem;
     margin-top: 3rem;
 }
 
@@ -73,11 +73,7 @@ footer {
     color: white;
 }
 
-.img-thumbnail {
-    width: 20%; 
-    height: auto;
-    justify-content:left;
-}
+
 
 .link {
     color: black;
@@ -94,10 +90,24 @@ footer {
         font-weight: bold;
         text-align: center;
     }
+h2 {
+    padding-right: 0rem;
+}
+    
 
     footer {
         padding: 1rem;
     }
+    .social {
+        padding-top: 10px;
+    }
+   .direction {
+    justify-content: center;
+    text-align: center;
+    display:block;
+    width: 100%;
+    margin:0 auto;
+   }
 }
 
 
